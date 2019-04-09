@@ -10,7 +10,7 @@ from sklearn.svm import SVC, LinearSVC
 from sklearn.utils.multiclass import unique_labels
 
 
-cancer = pd.read_csv('C:/Users/Acer/Desktop/tutorial/input/data.csv')
+cancer = pd.read_csv('stack.csv')
 
 cancer.info()
 cancer.head()
