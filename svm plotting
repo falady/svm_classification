@@ -10,7 +10,7 @@ from sklearn import svm
 from mlxtend.plotting import plot_decision_regions
 
 
-autism = pd.read_csv('C:/Users/Acer/Desktop/python tutorial/input/10-features-uns.csv')
+autism = pd.read_csv('10-features-uns.csv')
 
 x = autism.drop(['TARGET'], axis = 1)  
 y = autism['TARGET']
